@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\Frontend\ServiceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,13 +23,9 @@ Route::get('/about', function() {
     return view('frontend.pages.about');
 })->name('about');
 
-Route::get('/services', function() {
-    return view('frontend.pages.services');
-})->name('services');
-
-Route::get('/service/{slug}', function($slug) {
-    return view('frontend.pages.service-detail', ['slug' => $slug]);
-})->name('service.detail');
+// Services Routes
+Route::get('/services', [ServiceController::class, 'index'])->name('services');
+Route::get('/service/{slug}', [ServiceController::class, 'show'])->name('service.detail');
 
 Route::get('/projects', function() {
     return view('frontend.pages.projects');
