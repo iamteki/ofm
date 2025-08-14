@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\ServiceController;
+use App\Http\Controllers\Frontend\AboutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,15 +19,15 @@ use App\Http\Controllers\Frontend\ServiceController;
 // Frontend Routes
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
-// Main Pages (create controllers for these later)
-Route::get('/about', function() {
-    return view('frontend.pages.about');
-})->name('about');
+// About Routes
+Route::get('/about', [AboutController::class, 'index'])->name('about');
+Route::get('/team', [AboutController::class, 'team'])->name('team');
 
 // Services Routes
 Route::get('/services', [ServiceController::class, 'index'])->name('services');
 Route::get('/service/{slug}', [ServiceController::class, 'show'])->name('service.detail');
 
+// Temporary routes (will be replaced with controllers later)
 Route::get('/projects', function() {
     return view('frontend.pages.projects');
 })->name('projects');
@@ -46,10 +47,6 @@ Route::get('/blog', function() {
 Route::get('/blog/{slug}', function($slug) {
     return view('frontend.pages.blog-detail', ['slug' => $slug]);
 })->name('blog.detail');
-
-Route::get('/team', function() {
-    return view('frontend.pages.team');
-})->name('team');
 
 Route::get('/faq', function() {
     return view('frontend.pages.faq');
