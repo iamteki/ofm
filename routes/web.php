@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\ServiceController;
 use App\Http\Controllers\Frontend\AboutController;
+use App\Http\Controllers\Frontend\BlogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,13 +41,15 @@ Route::get('/pricing', function() {
     return view('frontend.pages.pricing');
 })->name('pricing');
 
-Route::get('/blog', function() {
-    return view('frontend.pages.blog');
-})->name('blog');
-
-Route::get('/blog/{slug}', function($slug) {
-    return view('frontend.pages.blog-detail', ['slug' => $slug]);
-})->name('blog.detail');
+// Blog Routes
+Route::prefix('blog')->group(function () {
+    Route::get('/', [BlogController::class, 'index'])->name('blog');
+    Route::get('/search', [BlogController::class, 'search'])->name('blog.search');
+    Route::get('/category/{slug}', [BlogController::class, 'category'])->name('blog.category');
+    Route::get('/tag/{tag}', [BlogController::class, 'tag'])->name('blog.tag');
+    Route::get('/{slug}', [BlogController::class, 'show'])->name('blog.detail');
+    Route::post('/comment', [BlogController::class, 'comment'])->name('blog.comment');
+});
 
 Route::get('/faq', function() {
     return view('frontend.pages.faq');
