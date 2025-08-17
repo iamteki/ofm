@@ -5,6 +5,7 @@ use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\ServiceController;
 use App\Http\Controllers\Frontend\AboutController;
 use App\Http\Controllers\Frontend\BlogController;
+use App\Http\Controllers\Frontend\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -59,11 +60,9 @@ Route::get('/contact', function() {
     return view('frontend.pages.contact');
 })->name('contact');
 
-// Form Submissions
-Route::post('/contact', function() {
-    // Handle contact form submission
-    return redirect()->back()->with('success', 'Your message has been sent successfully!');
-})->name('contact.store');
+// Contact Routes
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
 Route::post('/newsletter/subscribe', function() {
     // Handle newsletter subscription
