@@ -6,6 +6,7 @@ use App\Http\Controllers\Frontend\ServiceController;
 use App\Http\Controllers\Frontend\AboutController;
 use App\Http\Controllers\Frontend\BlogController;
 use App\Http\Controllers\Frontend\ContactController;
+use App\Http\Controllers\Frontend\ProjectController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,14 +30,10 @@ Route::get('/team', [AboutController::class, 'team'])->name('team');
 Route::get('/services', [ServiceController::class, 'index'])->name('services');
 Route::get('/service/{slug}', [ServiceController::class, 'show'])->name('service.detail');
 
-// Temporary routes (will be replaced with controllers later)
-Route::get('/projects', function() {
-    return view('frontend.pages.projects');
-})->name('projects');
+// Projects Routes
+Route::get('/projects', [ProjectController::class, 'index'])->name('projects');
+Route::get('/project/{slug}', [ProjectController::class, 'show'])->name('project.detail');
 
-Route::get('/project/{slug}', function($slug) {
-    return view('frontend.pages.project-detail', ['slug' => $slug]);
-})->name('project.detail');
 
 Route::get('/pricing', function() {
     return view('frontend.pages.pricing');
