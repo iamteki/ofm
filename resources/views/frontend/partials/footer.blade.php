@@ -10,7 +10,7 @@
                     <div class="footer-widget logo-widget">
                         <figure class="footer-logo">
                             <a href="{{ route('home') }}">
-                                <img src="{{ asset('assets/images/ofm.svg') }}" alt="Online Finance Manager" style="height: 100px; width: auto; max-width: 100%; object-fit: contain; display: block;">
+                                <img src="{{ asset('assets/images/ofm.svg') }}" alt="Online Finance Manager" style="height: 80px; width: auto; max-width: 100%; object-fit: contain; display: block;">
                             </a>
                         </figure>
                         <div class="text-box">
