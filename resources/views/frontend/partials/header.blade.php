@@ -19,7 +19,7 @@
             <div class="left-column">
                 <figure class="logo-box">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="Online Finance Manager">
+                        <img src="{{ asset('assets/images/ofm.svg') }}" alt="Online Finance Manager" style="height: 60px; width: auto; max-width: 100%; object-fit: contain; display: block;">
                     </a>
                 </figure>
                 <div class="award-box">
