@@ -7,13 +7,12 @@
                 <div class="sec-title">
                     <span class="sub-title">Contact</span>
                     <h2>Contact us <br />for Top-Notch Service.</h2>
-                    <a href="#locations" class="theme-btn btn-two">Our Locations</a>
                 </div>
             </div>
             <div class="col-lg-8 col-md-12 col-sm-12 content-column">
                 <div class="content-box">
                     <div class="row clearfix">
-                        <div class="col-lg-6 col-md-6 col-sm-12 info-column">
+                        <div class="col-lg-12 col-md-12 col-sm-12 info-column">
                             <div class="info-block-one">
                                 <div class="inner-box">
                                     <div class="upper-box">
@@ -37,35 +36,6 @@
                                         </div>
                                         <div class="link">
                                             <a href="#contact-form"><span>Get Call Back</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 info-column">
-                            <div class="info-block-one">
-                                <div class="inner-box">
-                                    <div class="upper-box">
-                                        <div class="light-icon"><i class="flaticon-cityscape"></i></div>
-                                        <h3>Address</h3>
-                                        <p>To visiting our company</p>
-                                    </div>
-                                    <div class="lower-content">
-                                        <div class="single-item">
-                                            <div class="icon-box"><i class="flaticon-location-1"></i></div>
-                                            <h6>Address</h6>
-                                            <p>
-                                                {{ $contactInfo['address']['street'] }}<br />
-                                                {{ $contactInfo['address']['city'] }}, {{ $contactInfo['address']['country'] }}
-                                            </p>
-                                        </div>
-                                        <div class="single-item">
-                                            <div class="icon-box"><i class="flaticon-time-management"></i></div>
-                                            <h6>Off. Hours</h6>
-                                            <p>{{ $contactInfo['hours'] }}</p>
-                                        </div>
-                                        <div class="link">
-                                            <a href="https://www.google.com/maps" target="_blank"><span>View On Map</span></a>
                                         </div>
                                     </div>
                                 </div>

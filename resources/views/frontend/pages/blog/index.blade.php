@@ -31,7 +31,4 @@
     </section>
     <!-- sidebar-page-container end -->
 
-    <!-- cta-section -->
-    @include('frontend.sections.blog.cta')
-    <!-- cta-section end -->
 @endsection

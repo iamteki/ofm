@@ -41,9 +41,6 @@
     <!-- related-projects end -->
     @endif
 
-    <!-- cta-section -->
-    @include('frontend.sections.projects.cta')
-    <!-- cta-section end -->
 @endsection
 
 @push('scripts')

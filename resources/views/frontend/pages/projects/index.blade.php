@@ -12,9 +12,6 @@
     @include('frontend.sections.projects.projects-grid')
     <!-- project-page-section end -->
 
-    <!-- cta-section -->
-    @include('frontend.sections.projects.cta')
-    <!-- cta-section end -->
 @endsection
 
 @push('scripts')

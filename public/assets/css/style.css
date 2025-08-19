@@ -492,7 +492,7 @@ img {
 }
 
 .sec-pad{
-  padding: 140px 0px;
+  padding: 70px 0px;
 }
 
 .mr-0{
@@ -1382,7 +1382,7 @@ img {
 
 .main-menu .navigation > li > a:before{
   position: absolute;
-  content: "\f102";
+  content: "";
   font-family: 'flaticon';
   font-size: 16px;
   left: 0px;

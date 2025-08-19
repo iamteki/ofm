@@ -2,57 +2,19 @@
 <section class="main-footer">
     <div class="auto-container">
         <div class="footer-top">
-            <div class="row clearfix">
-                <div class="col-lg-6 col-md-12 col-sm-12 footer-column">
-                    <div class="logo-widget">
-                        <figure class="footer-logo">
-                            <a href="{{ route('home') }}">
-                                <img src="{{ asset('assets/images/logo.png') }}" alt="">
-                            </a>
-                        </figure>
-                        <div class="copyright">
-                            <h5>Copyright &copy; {{ date('Y') }} <a href="{{ route('home') }}">Counsolve.</a> All Rights Reserved.</h5>
-                        </div>
-                        <div class="text-box">
-                            <p>Provides advice & guidance to clients regarding their investments & manage their investment portfolios.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 footer-column">
-                    <div class="newsletter-widget">
-                        <div class="icon-box">
-                            <img src="{{ asset('assets/images/icons/icon-8.png') }}" alt="">
-                        </div>
-                        <h3>Newsletter</h3>
-                        <p>By submitting this form, you consent to receive marketing updates from Counsolve.</p>
-                        <div class="form-inner">
-                            <form method="post" action="{{ route('newsletter.subscribe') ?? '#' }}">
-                                @csrf
-                                <div class="form-group">
-                                    <input type="email" name="email" placeholder="Enter Email Address..." required>
-                                    <button type="submit" class="theme-btn btn-one">Subscribe</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
         </div>
         <div class="widget-section">
             <div class="row clearfix">
                 <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                    <div class="footer-widget contact-widget">
-                        <div class="widget-title">
-                            <h3>Office Location</h3>
-                        </div>
-                        <div class="widget-content">
-                            <h4><span>Over 30 Offices in more</span><br /> <span>than 16 Countries</span></h4>
-                            <h5>Head Office</h5>
-                            <p>280 Granite Run Drive Suite <br />Hobert, LA 90010, <br />United States.</p>
-                            <div class="map-box">
-                                <div class="icon-box"><i class="fas fa-map-location"></i></div>
-                                <h6><a href="https://www.google.com/maps/@23.235815,89.5731704,17.1z" target="_blank">Google Map</a></h6>
-                            </div>
+                    <div class="footer-widget logo-widget">
+                        <figure class="footer-logo">
+                            <a href="{{ route('home') }}">
+                                <img src="{{ asset('assets/images/logo.png') }}" alt="Online Finance Manager">
+                            </a>
+                        </figure>
+                        <div class="text-box">
+                            <p>Provides advice & guidance to clients regarding their investments & manage their investment portfolios.</p>
                         </div>
                     </div>
                 </div>
@@ -116,14 +78,17 @@
     </div>
     <div class="footer-bottom">
         <div class="auto-container">
-            <div class="bottom-inner">
-                <ul class="footer-nav">
-                    <li><a href="{{ route('terms') ?? '#' }}">Terms & Conditions</a></li>
-                    <li><a href="{{ route('privacy') ?? '#' }}">Privacy Policy</a></li>
-                    <li><a href="{{ route('sitemap') ?? '#' }}">Sitemap</a></li>
-                    <li><a href="{{ route('investor-policy') ?? '#' }}">Investor Policy</a></li>
-                </ul>
-                <button class="scroll-to-target" data-target="html">Back to Top<i class="flaticon-up-arrow"></i></button>
+            <div class="bottom-inner" style="display: flex; justify-content: space-between; align-items: center; position: relative; flex-wrap: wrap; gap: 15px;">
+                <div style="flex: 1; min-width: 0; display: none;" class="d-none d-md-block"></div>
+                <div class="copyright-text" style="flex: 1; text-align: center; min-width: 250px; order: 1;">
+                    <p style="margin: 0; font-size: 14px; line-height: 1.4;">Copyright &copy; {{ date('Y') }} <a href="{{ route('home') }}">Counsolve.</a> All Rights Reserved.</p>
+                </div>
+                <div style="flex: 1; display: flex; justify-content: flex-end; min-width: auto; order: 2;" class="d-none d-md-flex">
+                    <button class="scroll-to-target" data-target="html">Back to Top<i class="flaticon-up-arrow"></i></button>
+                </div>
+                <div class="d-block d-md-none" style="width: 100%; text-align: center; order: 3; margin-top: 10px;">
+                    <button class="scroll-to-target" data-target="html">Back to Top<i class="flaticon-up-arrow"></i></button>
+                </div>
             </div>
         </div>
     </div>
