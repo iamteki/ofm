@@ -96,7 +96,7 @@
                         </div>
                     </div>
                     <div class="nav-btn nav-toggler navSidebar-button clearfix">
-                        <img src="{{ asset('assets/images/icons/icon-4.png') }}" alt="">
+                        <img src="{{ asset('assets/images/icons/ofm_icon.svg') }}" alt="" style="width: 50px; height: 50px; object-fit: contain; display: block;">
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@
                         </div>
                     </div>
                     <div class="nav-btn nav-toggler navSidebar-button clearfix">
-                        <img src="{{ asset('assets/images/icons/icon-4.png') }}" alt="">
+                        <img src="{{ asset('assets/images/icons/ofm_icon.svg') }}" alt="" style="width: 50px; height: 50px; object-fit: contain; display: block;">
                     </div>
                 </div>
             </div>
