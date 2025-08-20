@@ -84,10 +84,10 @@
                     <p style="margin: 0; font-size: 14px; line-height: 1.4;">Copyright &copy; {{ date('Y') }} <a href="{{ route('home') }}">Counsolve.</a> All Rights Reserved.</p>
                 </div>
                 <div style="flex: 1; display: flex; justify-content: flex-end; min-width: auto; order: 2;" class="d-none d-md-flex">
-                    <button class="scroll-to-target" data-target="html">Back to Top<i class="flaticon-up-arrow"></i></button>
+                  
                 </div>
                 <div class="d-block d-md-none" style="width: 100%; text-align: center; order: 3; margin-top: 10px;">
-                    <button class="scroll-to-target" data-target="html">Back to Top<i class="flaticon-up-arrow"></i></button>
+                  
                 </div>
             </div>
         </div>

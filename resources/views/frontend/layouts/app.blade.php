@@ -28,6 +28,17 @@
     <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
 
     @stack('styles')
+    
+    <!-- Custom Back to Top Button Styling -->
+    <style>
+        .scroll-top {
+            background: #2ebfac !important;
+        }
+        
+        .scroll-top:hover {
+            background: #26a798 !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -53,6 +64,11 @@
 
         <!-- Include Footer -->
         @include('frontend.partials.footer')
+
+        <!-- scroll to top -->
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <i class="flaticon-up-arrow"></i>
+        </button>
 
     </div>
 
