@@ -25,10 +25,10 @@
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                    @include('frontend.sections.projects.detail-sidebar')
+                    @include('frontend.pages.projects.detail-sidebar')
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12 sidebar-side">
-                    @include('frontend.sections.projects.detail-content')
+                    @include('frontend.pages.projects.detail-content')
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
 
     @if(count($relatedProjects) > 0)
     <!-- related-projects -->
-    @include('frontend.sections.projects.related-projects')
+    @include('frontend.pages.projects.related-projects')
     <!-- related-projects end -->
     @endif
 

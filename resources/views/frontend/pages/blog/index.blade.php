@@ -5,7 +5,7 @@
 
 @section('content')
     <!-- page-title -->
-    @include('frontend.sections.blog.page-title')
+    @include('frontend.pages.blog.page-title')
     <!-- page-title end -->
 
     <!-- sidebar-page-container -->
@@ -15,16 +15,16 @@
                 <div class="col-lg-8 col-md-12 col-sm-12 content-side">
                     <div class="blog-list-content">
                         @foreach($paginatedPosts as $post)
-                            @include('frontend.sections.blog.post-item', ['post' => $post])
+                            @include('frontend.pages.blog.post-item', ['post' => $post])
                         @endforeach
                         
                         <!-- Pagination -->
-                        @include('frontend.sections.blog.pagination')
+                        @include('frontend.pages.blog.pagination')
                     </div>
                 </div>
                 
                 <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                    @include('frontend.sections.blog.sidebar')
+                    @include('frontend.pages.blog.sidebar')
                 </div>
             </div>
         </div>

@@ -5,11 +5,11 @@
 
 @section('content')
     <!-- page-title -->
-    @include('frontend.sections.projects.page-title')
+    @include('frontend.pages.projects.page-title')
     <!-- page-title end -->
 
     <!-- project-page-section -->
-    @include('frontend.sections.projects.projects-grid')
+    @include('frontend.pages.projects.projects-grid')
     <!-- project-page-section end -->
 
 @endsection

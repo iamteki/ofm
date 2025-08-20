@@ -25,11 +25,11 @@
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="col-lg-8 col-md-12 col-sm-12 content-side">
-                    @include('frontend.sections.services.detail-content')
+                    @include('frontend.pages.services.detail-content')
                 </div>
                 
                 <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                    @include('frontend.sections.services.detail-sidebar')
+                    @include('frontend.pages.services.detail-sidebar')
                 </div>
             </div>
         </div>
@@ -37,6 +37,6 @@
     <!-- service-details end -->
 
     <!-- cta-section -->
-    @include('frontend.sections.services.cta')
+    @include('frontend.pages.services.cta')
     <!-- cta-section end -->
 @endsection

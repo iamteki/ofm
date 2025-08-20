@@ -23,7 +23,7 @@ class HomeController extends Controller
             'news' => $this->getLatestNews(),
         ];
         
-        return view('frontend.pages.home', $data);
+        return view('frontend.pages.home.home', $data);
     }
     
     /**

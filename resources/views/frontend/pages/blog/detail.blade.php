@@ -26,15 +26,15 @@
             <div class="row clearfix">
                 <div class="col-lg-8 col-md-12 col-sm-12 content-side">
                     <div class="blog-details-content">
-                        @include('frontend.sections.blog.detail-content')
-                        @include('frontend.sections.blog.author-box')
-                        @include('frontend.sections.blog.post-navigation')
-                        @include('frontend.sections.blog.comment-form')
+                        @include('frontend.pages.blog.detail-content')
+                        @include('frontend.pages.blog.author-box')
+                        @include('frontend.pages.blog.post-navigation')
+                        @include('frontend.pages.blog.comment-form')
                     </div>
                 </div>
                 
                 <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                    @include('frontend.sections.blog.sidebar')
+                    @include('frontend.pages.blog.sidebar')
                 </div>
             </div>
         </div>
@@ -42,6 +42,6 @@
     <!-- sidebar-page-container end -->
 
     <!-- cta-section -->
-    @include('frontend.sections.blog.cta')
+    @include('frontend.pages.blog.cta')
     <!-- cta-section end -->
 @endsection

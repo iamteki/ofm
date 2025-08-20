@@ -21,10 +21,10 @@
     <!-- page-title end -->
 
     <!-- team-section -->
-    @include('frontend.sections.about.team-full')
+    @include('frontend.pages.about.team-full')
     <!-- team-section end -->
 
     <!-- cta-section -->
-    @include('frontend.sections.about.cta')
+    @include('frontend.pages.about.cta')
     <!-- cta-section end -->
 @endsection

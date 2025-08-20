@@ -5,15 +5,15 @@
 
 @section('content')
     <!-- page-title -->
-    @include('frontend.sections.contact.page-title')
+    @include('frontend.pages.contact.page-title')
     <!-- page-title end -->
 
     <!-- contact-section -->
-    @include('frontend.sections.contact.info-section')
+    @include('frontend.pages.contact.info-section')
     <!-- contact-section end -->
 
     <!-- contact-style-two -->
-    @include('frontend.sections.contact.form-section')
+    @include('frontend.pages.contact.form-section')
     <!-- contact-style-two end -->
 @endsection
 

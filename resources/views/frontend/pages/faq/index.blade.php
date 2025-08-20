@@ -5,7 +5,7 @@
 
 @section('content')
     <!-- page-title -->
-    @include('frontend.sections.faq.page-title')
+    @include('frontend.pages.faq.page-title')
     <!-- page-title end -->
 
     <!-- faq-page-section -->
@@ -13,10 +13,10 @@
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                    @include('frontend.sections.faq.sidebar')
+                    @include('frontend.pages.faq.sidebar')
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12 content-side">
-                    @include('frontend.sections.faq.content')
+                    @include('frontend.pages.faq.content')
                 </div>
             </div>
         </div>

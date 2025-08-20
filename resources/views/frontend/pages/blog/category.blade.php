@@ -27,7 +27,7 @@
                 <div class="col-lg-8 col-md-12 col-sm-12 content-side">
                     <div class="blog-list-content">
                         @forelse($filteredPosts as $post)
-                            @include('frontend.sections.blog.post-item', ['post' => $post])
+                            @include('frontend.pages.blog.post-item', ['post' => $post])
                         @empty
                             <div class="no-posts">
                                 <h3>No posts found in this category.</h3>
@@ -39,7 +39,7 @@
                 </div>
                 
                 <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                    @include('frontend.sections.blog.sidebar')
+                    @include('frontend.pages.blog.sidebar')
                 </div>
             </div>
         </div>
@@ -47,6 +47,6 @@
     <!-- sidebar-page-container end -->
 
     <!-- cta-section -->
-    @include('frontend.sections.blog.cta')
+    @include('frontend.pages.blog.cta')
     <!-- cta-section end -->
 @endsection
