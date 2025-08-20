@@ -11,8 +11,4 @@
     <!-- pricing-section -->
     @include('frontend.pages.pricing.pricing-content')
     <!-- pricing-section end -->
-
-    <!-- cta-section -->
-    @include('frontend.pages.pricing.cta')
-    <!-- cta-section end -->
 @endsection
