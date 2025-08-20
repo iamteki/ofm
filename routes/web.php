@@ -8,6 +8,7 @@ use App\Http\Controllers\Frontend\BlogController;
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\ProjectController;
 use App\Http\Controllers\Frontend\FaqController;
+use App\Http\Controllers\Frontend\PricingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,9 +37,9 @@ Route::get('/projects', [ProjectController::class, 'index'])->name('projects');
 Route::get('/project/{slug}', [ProjectController::class, 'show'])->name('project.detail');
 
 
-Route::get('/pricing', function() {
-    return view('frontend.pages.pricing');
-})->name('pricing');
+// Pricing Routes
+Route::get('/pricing', [PricingController::class, 'index'])->name('pricing');
+Route::post('/pricing/select', [PricingController::class, 'selectPlan'])->name('pricing.select');
 
 // Blog Routes
 Route::prefix('blog')->group(function () {
