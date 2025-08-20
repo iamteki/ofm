@@ -7,6 +7,7 @@ use App\Http\Controllers\Frontend\AboutController;
 use App\Http\Controllers\Frontend\BlogController;
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\ProjectController;
+use App\Http\Controllers\Frontend\FaqController;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,13 +50,10 @@ Route::prefix('blog')->group(function () {
     Route::post('/comment', [BlogController::class, 'comment'])->name('blog.comment');
 });
 
-Route::get('/faq', function() {
-    return view('frontend.pages.faq');
-})->name('faq');
 
-Route::get('/contact', function() {
-    return view('frontend.pages.contact');
-})->name('contact');
+// FAQ Routes
+Route::get('/faq', [FaqController::class, 'index'])->name('faq');
+Route::post('/faq/submit', [FaqController::class, 'submit'])->name('faq.submit');
 
 // Contact Routes
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');

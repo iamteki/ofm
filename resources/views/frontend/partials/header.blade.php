@@ -85,6 +85,9 @@
                                 <li>
                                     <a href="{{ route('contact') ?? '#' }}">Contact</a>
                                 </li>
+                                 <li>
+                                    <a href="{{ route('faq') ?? '#' }}">Faq</a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
