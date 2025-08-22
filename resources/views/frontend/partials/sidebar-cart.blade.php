@@ -15,7 +15,7 @@
                     <div class="content-inner">
                         <div class="logo">
                             <a href="{{ route('home') }}">
-                                <img src="{{ asset('assets/images/logo.png') }}" alt="Online Finance Manager">
+                                <img src="{{ asset('assets/images/ofm.svg') }}" alt="Online Finance Manager" style="width: 150px; height: auto; max-width: 100%;">
                             </a>
                         </div>
                         <div class="content-box">
