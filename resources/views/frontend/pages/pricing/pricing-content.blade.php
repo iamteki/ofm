@@ -305,8 +305,12 @@
     }
     
     .toggle-label.active {
-        color: #f7931e;
+        color: #1350F4;
         font-weight: 600;
+    }
+    
+    .toggle-label.active.onetime-label {
+        color: #4ec0fc;
     }
     
     .toggle-switch {
@@ -328,7 +332,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #f7931e;
+        background-color: #1350F4;
         border-radius: 25px;
         transition: 0.3s;
     }
@@ -346,7 +350,7 @@
     }
     
     .toggle-input:checked + .toggle-slider {
-        background-color: #2196F3;
+        background-color: #4ec0fc;
     }
     
     .toggle-input:checked + .toggle-slider:before {
@@ -411,7 +415,7 @@
     
     .feature-list.mini-features li:before {
         content: "✓";
-        color: #f7931e;
+        color: #1350F4;
         font-weight: bold;
         margin-right: 8px;
     }
@@ -447,7 +451,7 @@
     
     .price-box h2 .symble {
         font-size: 24px;
-        color: #f7931e;
+        color: #1350F4;
         position: absolute;
         left: -15px;
         top: 10px;
