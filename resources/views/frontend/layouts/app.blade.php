@@ -32,11 +32,11 @@
     <!-- Custom Back to Top Button Styling -->
     <style>
         .scroll-top {
-            background: #2ebfac !important;
+            background: #1350F4 !important;
         }
         
         .scroll-top:hover {
-            background: #26a798 !important;
+            background: #4ec0fc !important;
         }
     </style>
 </head>
