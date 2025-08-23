@@ -43,3 +43,54 @@
     line-height: 1.1 !important;
   }
 }
+
+/* Service section card height equalization - simple approach */
+.service-block-one .inner-box {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.service-block-one .inner-box .link {
+  margin-top: auto !important;
+}
+
+.service-block-one .inner-box p {
+  font-size: 14px !important;
+  line-height: 22px !important;
+  margin-bottom: 20px !important;
+  height: 66px !important;
+  overflow: hidden !important;
+}
+
+/* Service section list item styles */
+.service-block-one .list-item {
+  position: relative;
+  display: block;
+  margin-top: 15px;
+  flex-grow: 1;
+}
+
+.service-block-one .list-item li {
+  position: relative;
+  display: block;
+  font-size: 13px !important;
+  line-height: 20px !important;
+  color: #666;
+  padding-left: 28px;
+  margin-bottom: 8px;
+}
+
+.service-block-one .list-item li:last-child {
+  margin-bottom: 0px;
+}
+
+.service-block-one .list-item li:before {
+  position: absolute;
+  content: '';
+  background-image: url(../images/icons/icon-1.png);
+  width: 11px;
+  height: 16px;
+  left: 0px;
+  top: 3px;
+  background-repeat: no-repeat;
+}

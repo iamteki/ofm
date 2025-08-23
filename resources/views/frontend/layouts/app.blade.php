@@ -92,6 +92,7 @@
 
     <!-- main-js -->
     <script src="{{ asset('assets/js/script.js') }}"></script>
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
 
     @stack('scripts')
 </body>
