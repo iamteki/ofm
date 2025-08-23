@@ -15,8 +15,8 @@
                                     <img src="{{ asset('assets/images/icons/icon-6.png') }}" alt="">
                                 </div>
                                 <div class="count-outer count-box">
-                                    <span class="count-text" data-speed="1500" data-stop="840">0</span>
-                                    <span class="text">Billion</span>
+                                    <span class="count-text" data-speed="1500" data-stop="1000">0</span>
+                                    <span class="text">+</span>
                                 </div>
                                 <p>Client assets under advisement.</p>
                             </div>
