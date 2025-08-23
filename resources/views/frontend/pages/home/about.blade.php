@@ -34,14 +34,14 @@
                 <div class="content-box">
                     <div class="sec-title">
                         <span class="sub-title">About Us</span>
-                        <h2>Experts in Providing Investment Consulting Services</h2>
+                        <h2>We are your partner in financial clarity</h2>
                     </div>
                     <ul class="list-item clearfix">
-                        <li>Investment Strategy Development</li>
-                        <li>Risk Management</li>
+                        <li>Financial Insights</li>
+                        <li>Cash Flow Management</li>
                     </ul>
                     <div class="text-box">
-                        <p>Every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty obligations of business it will frequently occur that.</p>
+                        <p>We help small and mid-sized businesses simplify finances with expert budgeting, reporting, and control—delivered online, with accuracy, transparency, and insights that drive smarter business decisions.</p>
                     </div>
                     <div class="btn-box">
                         <a href="{{ route('about') ?? '#' }}" class="theme-btn btn-two">More About Us</a>
