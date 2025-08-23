@@ -59,16 +59,16 @@
                         <div class="icon-box"><i class="flaticon-customer-service"></i></div>
                         <ul class="info-list clearfix">
                             <li>
-                                <h6>Off.Hrs</h6>
-                                <h4>Mon - Sat: 09am to 06pm</h4>
+                                <h6>Working Days</h6>
+                                <h4>Mon to Fri - 08:30am To 06:00pm</h4>
                             </li>
                             <li>
                                 <h6>Phone</h6>
-                                <h4><a href="tel:80098765432">800.98.76.5432</a></h4>
+                                <h4><a href="tel:+94716942349">+94 71 694 23 49</a></h4>
                             </li>
                             <li>
                                 <h6>Email</h6>
-                                <h4><a href="mailto:sendmail@example.com">sendmail@example.com</a></h4>
+                                <h4><a href="mailto:info@onlinefinancemanager.com">info@onlinefinancemanager.com</a></h4>
                             </li>
                         </ul>
                         <ul class="social-links clearfix">
