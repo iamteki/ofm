@@ -25,14 +25,22 @@
                                             <div class="icon-box"><i class="flaticon-chat-2"></i></div>
                                             <h6>Phone</h6>
                                             <p>
-                                                Finance: <a href="tel:{{ str_replace('.', '', $contactInfo['phone']['finance']) }}">{{ $contactInfo['phone']['finance'] }}</a><br />
-                                                Operation: <a href="tel:{{ str_replace(['+', ' ', '.'], '', $contactInfo['phone']['operation']) }}">{{ $contactInfo['phone']['operation'] }}</a>
+                                                Call us : <a href="tel:{{ str_replace('.', '', $contactInfo['phone']['finance']) }}">{{ $contactInfo['phone']['finance'] }}</a><br />
+                                               
                                             </p>
                                         </div>
                                         <div class="single-item">
                                             <div class="icon-box"><i class="flaticon-mail"></i></div>
                                             <h6>Email</h6>
                                             <p><a href="mailto:{{ $contactInfo['email'] }}">{{ $contactInfo['email'] }}</a></p>
+                                        </div>
+                                        <div class="single-item">
+                                            <div class="icon-box"><i class="flaticon-clock"></i></div>
+                                            <h6>Working Days</h6>
+                                            <p>
+                                                Mon to Fri - 08:30am To 06:00pm<br />
+                                                Saturday to Sunday - Closed
+                                            </p>
                                         </div>
                                         <div class="link">
                                             <a href="#contact-form"><span>Get Call Back</span></a>
