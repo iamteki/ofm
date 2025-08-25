@@ -381,8 +381,8 @@ img {
 }
 
 .theme-btn.btn-one{
-  background: #f4f1fa;
-  color: #030B18;
+  background: #030B18;
+  color: #fff;
 }
 
 .theme-btn.btn-one:hover{
@@ -952,6 +952,7 @@ img {
   color: #fff;
   text-align: center;
   border-radius: 50%;
+  background: #030B18;
 }
 
 .header-upper .right-column .support-box h5{
