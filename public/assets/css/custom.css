@@ -216,6 +216,11 @@
   display: none !important;
 }
 
+/* FAQ section read more button background color */
+.faq-section .btn-box .theme-btn {
+  background: #030B18 !important;
+}
+
 /* Ensure equal heights for service cards */
 .service-section .service-block-one .inner-box {
   justify-content: space-between !important;
