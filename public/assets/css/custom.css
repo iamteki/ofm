@@ -136,3 +136,93 @@
   margin-bottom: 0 !important;
   padding-bottom: 70px !important;
 }
+
+/* Services section - Static 3-card layout with consistent colors */
+.service-section .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.service-section .service-column {
+  display: flex !important;
+  margin-bottom: 30px !important;
+}
+
+.service-section .service-block-one {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.service-section .service-block-one .inner-box {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+/* Override specific service card colors with #030B18 */
+.service-block-one.block-one {
+  background: #030B18 !important;
+}
+
+.service-block-one.block-two {
+  background: #030B18 !important;
+}
+
+.service-block-one.block-three {
+  background: #030B18 !important;
+}
+
+.service-block-one.block-one:hover .inner-box {
+  border-color: #030B18 !important;
+}
+
+.service-block-one.block-two:hover .inner-box {
+  border-color: #030B18 !important;
+}
+
+.service-block-one.block-three:hover .inner-box {
+  border-color: #030B18 !important;
+}
+
+/* Override service block icon colors to #030B18 */
+.service-block-one.block-one .inner-box .icon-box {
+  color: #030B18 !important;
+}
+
+.service-block-one.block-two .inner-box .icon-box {
+  color: #030B18 !important;
+}
+
+.service-block-one.block-three .inner-box .icon-box {
+  color: #030B18 !important;
+}
+
+/* Override service block icon background to pure white */
+.service-block-one.block-one .inner-box .icon-box:before {
+  background: #ffffff !important;
+}
+
+.service-block-one.block-two .inner-box .icon-box:before {
+  background: #ffffff !important;
+}
+
+.service-block-one.block-three .inner-box .icon-box:before {
+  background: #ffffff !important;
+}
+
+/* Ensure equal heights for service cards */
+.service-section .service-block-one .inner-box {
+  justify-content: space-between !important;
+}
+
+.service-section .service-block-one .inner-box .list-item {
+  flex-grow: 1 !important;
+}
+
+/* Responsive adjustments for service cards */
+@media (max-width: 767px) {
+  .service-section .service-column {
+    margin-bottom: 20px !important;
+  }
+}

@@ -37,12 +37,10 @@
                 </div>
             </div>
         </div>
-        <div class="video-inner">
+        <div class="image-inner">
             <div class="bg-layer" style="background-image: url({{ asset('assets/images/background/video-bg.jpg') }});"></div>
-            <div class="btn-box">
-                <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="lightbox-image video-btn" data-caption="">
-                    <i class="flaticon-play-button"></i>
-                </a>
+            <div class="image-content">
+                <img src="{{ asset('assets/images/background/video-bg.jpg') }}" alt="Online Finance Manager" class="main-image">
             </div>
         </div>
     </div>
