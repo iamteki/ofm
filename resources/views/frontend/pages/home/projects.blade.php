@@ -18,6 +18,9 @@
                             <li class="p-tab-btn" data-tab="#tab-9">Investment</li>
                             <li class="p-tab-btn" data-tab="#tab-10">Management</li>
                         </ul>
+                        <div class="btn-box" style="margin-top: 30px;">
+                            <a href="{{ route('projects') }}" class="theme-btn btn-two">View More</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-9 col-md-12 col-sm-12 content-column">
