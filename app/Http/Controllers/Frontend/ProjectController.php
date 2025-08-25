@@ -19,7 +19,7 @@ class ProjectController extends Controller
                 'category' => 'Investment',
                 'client' => 'Global Finance Corp',
                 'date' => 'March 15, 2024',
-                'location' => 'New York, USA',
+                'team' => 'Online Finance Manager',
                 'image' => 'assets/images/project/project-10.jpg',
                 'gallery' => [
                     'assets/images/project/project-30.jpg',
