@@ -78,18 +78,37 @@
     </div>
     <div class="footer-bottom">
         <div class="auto-container">
-            <div class="bottom-inner" style="display: flex; justify-content: space-between; align-items: center; position: relative; flex-wrap: wrap; gap: 15px;">
-                <div style="flex: 1; min-width: 0; display: none;" class="d-none d-md-block"></div>
-                <div class="copyright-text" style="flex: 1; text-align: center; min-width: 250px; order: 1;">
-                    <p style="margin: 0; font-size: 14px; line-height: 1.4;">Copyright &copy; {{ date('Y') }} <a href="{{ route('home') }}">Counsolve.</a> All Rights Reserved.</p>
+            <div style="border-top: 1px solid #394450; margin-bottom: 20px;"></div>
+            <div class="bottom-inner">
+                <div class="copyright-text">
+                    <p style="margin: 0; color: #75727b; font-size: 14px; text-align: center; margin-bottom: 10px;">Copyright © {{ date('Y') }} <a href="https://creatxsoftware.com/" target="_blank" style="color: #4ec0fc; text-decoration: none;">CreatxSoftware</a>. All Rights Reserved.</p>
                 </div>
-                <div style="flex: 1; display: flex; justify-content: flex-end; min-width: auto; order: 2;" class="d-none d-md-flex">
-                  
-                </div>
-                <div class="d-block d-md-none" style="width: 100%; text-align: center; order: 3; margin-top: 10px;">
-                  
+                <div class="footer-links" style="text-align: center;">
+                    <a href="#" style="color: #75727b; text-decoration: none; margin: 0 15px; font-size: 14px;">Terms & Conditions</a>
+                    <a href="#" style="color: #75727b; text-decoration: none; margin: 0 15px; font-size: 14px;">Privacy Policy</a>
+                    <a href="#" style="color: #75727b; text-decoration: none; margin: 0 15px; font-size: 14px;">Investor Rights</a>
                 </div>
             </div>
+            
+            <style>
+            @media (min-width: 768px) {
+                .footer-bottom .bottom-inner {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
+                }
+                .footer-bottom .copyright-text {
+                    text-align: left !important;
+                }
+                .footer-bottom .copyright-text p {
+                    margin-bottom: 0 !important;
+                }
+                .footer-bottom .footer-links {
+                    text-align: right !important;
+                }
+            }
+            </style>
         </div>
     </div>
 </section>
