@@ -4,7 +4,7 @@
         <div class="upper-box clearfix">
             <figure class="logo-box pull-left">
                 <a href="{{ route('home') }}">
-                    <img src="{{ asset('assets/images/logo.png') }}" alt="">
+                    <img src="{{ asset('assets/images/ofm.svg') }}" alt="OFM" style="width: 120px; height: auto;">
                 </a>
             </figure>
             <div class="close-search pull-right"><i class="fa-solid fa-xmark"></i></div>
