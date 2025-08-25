@@ -12,10 +12,7 @@
     <section class="faq-page-section sec-pad">
         <div class="auto-container">
             <div class="row clearfix">
-                <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
-                    @include('frontend.pages.faq.sidebar')
-                </div>
-                <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+                <div class="col-lg-12 col-md-12 col-sm-12 content-side">
                     @include('frontend.pages.faq.content')
                 </div>
             </div>
