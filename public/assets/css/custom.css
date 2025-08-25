@@ -231,6 +231,100 @@
   background: #ffffff !important;
 }
 
+/* Blog sidebar background and text colors */
+.blog-sidebar {
+  background: #030B18 !important;
+  padding: 30px 20px !important;
+  border-radius: 10px !important;
+}
+
+/* Blog sidebar widget titles */
+.blog-sidebar .widget-title h3 {
+  color: #ffffff !important;
+}
+
+/* Blog sidebar search widget */
+.blog-sidebar .search-widget input {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.blog-sidebar .search-widget input:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+.blog-sidebar .search-widget input::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Blog sidebar category links */
+.blog-sidebar .category-list li a {
+  color: #ffffff !important;
+}
+
+.blog-sidebar .category-list li a:hover {
+  color: #1350F4 !important;
+}
+
+.blog-sidebar .category-list li span {
+  color: #ffffff !important;
+}
+
+.blog-sidebar .category-list li .line {
+  background: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Blog sidebar popular posts */
+.blog-sidebar .post h6 {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.blog-sidebar .post h4 a {
+  color: #ffffff !important;
+}
+
+.blog-sidebar .post h4 a:hover {
+  color: #1350F4 !important;
+}
+
+/* Blog sidebar tags styling */
+.blog-sidebar .tags-list li a {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.blog-sidebar .tags-list li a:hover {
+  color: #030B18 !important;
+  background: #ffffff !important;
+  border: 1px solid #ffffff !important;
+}
+
+/* Support widget styling */
+.support-widget {
+  background: #030B18 !important;
+  padding: 30px 20px !important;
+  border-radius: 10px !important;
+  margin-top: 30px !important;
+}
+
+.support-widget .big-text {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.support-widget h3 {
+  color: #ffffff !important;
+}
+
+.support-widget p {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
 /* Ensure equal heights for service cards */
 .service-section .service-block-one .inner-box {
   justify-content: space-between !important;

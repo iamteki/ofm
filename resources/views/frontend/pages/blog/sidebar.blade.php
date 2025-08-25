@@ -41,7 +41,6 @@
                         <img src="{{ asset($popularPost['thumbnail']) }}" alt="{{ $popularPost['title'] }}">
                     </a>
                 </figure>
-                <h6>{{ $popularPost['category'] }}</h6>
                 <h4>
                     <a href="{{ route('blog.detail', $popularPost['slug']) }}">
                         {{ Str::limit($popularPost['title'], 50) }}
@@ -64,13 +63,4 @@
             </ul>
         </div>
     </div>
-</div>
-
-<div class="support-widget">
-    <div class="icon-box"><img src="{{ asset('assets/images/icons/icon-31.png') }}" alt=""></div>
-    <figure class="image-box"><img src="{{ asset('assets/images/resource/support-1.jpg') }}" alt=""></figure>
-    <span class="big-text">OFM</span>
-    <h3>Empowering Your <br>Financial Future</h3>
-    <p>Expert guidance for success</p>
-    <a href="{{ route('contact') }}" class="theme-btn btn-two">Get Support</a>
 </div>
