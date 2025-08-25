@@ -27,8 +27,4 @@
     <!-- team-section -->
     @include('frontend.pages.about.team-preview')
     <!-- team-section end -->
-
-    <!-- cta-section -->
-    @include('frontend.pages.about.cta')
-    <!-- cta-section end -->
 @endsection

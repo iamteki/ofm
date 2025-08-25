@@ -94,3 +94,45 @@
   top: 3px;
   background-repeat: no-repeat;
 }
+
+/* Why Choose Us section - Equal height cards */
+.chooseus-style-five .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.chooseus-style-five .chooseus-column {
+  display: flex !important;
+  margin-bottom: 30px !important;
+}
+
+.chooseus-style-five .chooseus-block-three {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.chooseus-style-five .chooseus-block-three .inner-box {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+  justify-content: space-between !important;
+}
+
+.chooseus-style-five .chooseus-block-three .inner-box p {
+  flex-grow: 1 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Responsive adjustments for why choose us cards */
+@media (max-width: 767px) {
+  .chooseus-style-five .chooseus-column {
+    margin-bottom: 20px !important;
+  }
+}
+
+/* Ensure proper spacing for last section before footer on about page */
+.team-section.about-page {
+  margin-bottom: 0 !important;
+  padding-bottom: 70px !important;
+}

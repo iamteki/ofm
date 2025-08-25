@@ -13,7 +13,7 @@
                         <h3>Service Since {{ $stats['founded'] ?? '2015' }}</h3>
                         <p>We've been helping individuals and businesses achieve their financial goals through expert guidance, strategic planning, and personalized solutions.</p>
                         <div class="btn-box">
-                            <a href="{{ route('services') }}" class="theme-btn btn-two">Our Services</a>
+                            <a href="#" class="theme-btn btn-two">Download Company Profile</a>
                         </div>
                     </div>
                 </div>
