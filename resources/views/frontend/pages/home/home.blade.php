@@ -21,9 +21,6 @@
     <!-- Choose Us Section -->
     @include('frontend.pages.home.chooseus')
 
-    <!-- Industries Section -->
-    @include('frontend.pages.home.industries')
-
     <!-- Working Section -->
     @include('frontend.pages.home.working')
 
