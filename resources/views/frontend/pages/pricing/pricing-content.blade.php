@@ -3,8 +3,24 @@
     <div class="auto-container">
         <div class="sec-title centred">
             <span class="sub-title">Plan & pricing</span>
-            <h2>Effective & Flexible Pricing</h2>
-            <p>Choose between one-time payment or monthly billing options that best fit your business needs.</p>
+            <h2>Choose the plan that fits <br />your business needs!</h2>
+            <div class="pricing-features">
+                <hr class="pricing-divider">
+                <div class="feature-items">
+                    <div class="feature-item">
+                        <i class="fa fa-check"></i>
+                        <span>No hidden charges</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa fa-check"></i>
+                        <span>Straightforward pricing</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa fa-check"></i>
+                        <span>Cancel anytime</span>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Pricing Toggle -->
@@ -282,6 +298,56 @@
 
 @push('styles')
 <style>
+    /* Pricing Features Styles */
+    .pricing-features {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .pricing-divider {
+        width: 60%;
+        height: 1px;
+        background-color: #777;
+        border: none;
+        margin: 20px auto;
+    }
+    
+    .feature-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    
+    .feature-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #777;
+        font-size: 16px;
+    }
+    
+    .feature-item i {
+        color: #777;
+        font-size: 14px;
+    }
+    
+    .feature-item span {
+        white-space: nowrap;
+    }
+    
+    @media (max-width: 768px) {
+        .feature-items {
+            gap: 20px;
+        }
+        
+        .feature-item {
+            font-size: 14px;
+        }
+    }
+
     /* Pricing Toggle Styles */
     .pricing-toggle-wrapper {
         margin-bottom: 50px;
