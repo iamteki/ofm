@@ -38,7 +38,4 @@
 
     <!-- FAQ Section -->
     @include('frontend.pages.home.faq')
-
-    <!-- Appointment Section -->
-    @include('frontend.pages.home.appointment')
 @endsection
