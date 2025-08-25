@@ -52,7 +52,7 @@ class ContactController extends Controller
     {
         return [
             'phone' => [
-                'finance' => '+94 71 694 23 49',
+                'finance' => '+1 (307) 533-7005',
             ],
             'email' => 'info@onlinefinancemanager.com',
             'address' => [

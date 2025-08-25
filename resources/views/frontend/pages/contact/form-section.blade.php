@@ -5,7 +5,6 @@
             <div class="pattern-1"></div>
             <div class="pattern-2"></div>
         </div>
-        <figure class="image-layer"><img src="{{ asset('assets/images/resource/contact-1.png') }}" alt=""></figure>
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="col-lg-6 col-md-12 col-sm-12 title-column">
