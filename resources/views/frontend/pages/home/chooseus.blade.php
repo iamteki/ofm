@@ -1,6 +1,5 @@
 <!-- chooseus-section -->
 <section class="chooseus-section sec-pad">
-    <span class="big-text">Why <br />Choose Us</span>
     <div class="auto-container">
         <div class="sec-title centred">
             <span class="sub-title">Why Choose Us</span>
