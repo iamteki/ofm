@@ -221,6 +221,16 @@
   background: #030B18 !important;
 }
 
+/* FAQ section background color */
+.faq-section:before {
+  background: #ffffff !important;
+}
+
+/* Project section background color */
+.project-section:before {
+  background: #ffffff !important;
+}
+
 /* Ensure equal heights for service cards */
 .service-section .service-block-one .inner-box {
   justify-content: space-between !important;

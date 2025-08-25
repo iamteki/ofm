@@ -1,6 +1,5 @@
 <!-- faq-section -->
 <section class="faq-section sec-pad">
-    <span class="big-text">FAQ's</span>
     <div class="auto-container">
         <div class="row clearfix">
             <div class="col-lg-6 col-md-12 col-sm-12 image-column">
