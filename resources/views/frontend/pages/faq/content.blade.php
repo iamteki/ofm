@@ -2,6 +2,11 @@
 <div class="faq-content">
     <span class="big-text">faq's</span>
     
+    <div class="sec-title centred">
+        <h2>Frequently Asked Questions</h2>
+        <p>Find answers to the most common questions about our Online Finance Manager platform.</p>
+    </div>
+    
     <div class="accordion-content">
         <ul class="accordion-box">
             @foreach($faqs as $category => $items)
