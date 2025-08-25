@@ -52,9 +52,7 @@
                     <figure class="image">
                         <img src="{{ asset('assets/images/resource/chooseus-1.jpg') }}" alt="">
                     </figure>
-                    <div class="image-shape">
-                        <img src="{{ asset('assets/images/shape/shape-8.png') }}" alt="">
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 right-column">
