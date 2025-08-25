@@ -211,6 +211,11 @@
   background: #ffffff !important;
 }
 
+/* Remove testimonial icon background shape */
+.testimonial-block-one .inner-box .icon-box:before {
+  display: none !important;
+}
+
 /* Ensure equal heights for service cards */
 .service-section .service-block-one .inner-box {
   justify-content: space-between !important;

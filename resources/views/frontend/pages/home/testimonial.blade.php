@@ -9,18 +9,6 @@
                         <span class="sub-title">Testimonials</span>
                         <h2>Our Clients have been Extremely Satisfied by our Professionalism</h2>
                     </div>
-                    <div class="inner-box">
-                        <div class="single-item">
-                            <div class="icon-box">
-                                <img src="{{ asset('assets/images/icons/icon-7.png') }}" alt="">
-                            </div>
-                            <h5>Avg.Rating 4.8/5 <br />Based on 2,500 Client Reviews</h5>
-                        </div>
-                        <div class="tag">Excellent Service</div>
-                    </div>
-                    <div class="link">
-                        <a href="#"><span>Read All Reviews</span></a>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 inner-column">
