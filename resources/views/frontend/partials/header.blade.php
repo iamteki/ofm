@@ -34,7 +34,7 @@
                     <div class="icon-box"><i class="flaticon-headphone"></i></div>
                     <h5><a href="{{ route('faq') ?? '#' }}">Have <br />Question?</a></h5>
                 </div>
-                <div class="phone"><h3><a href="tel:4188822333">+94 71 694 23 49</a></h3></div>
+                <div class="phone"><h3><a href="tel:+1 (307) 533-7005">+1 (307) 533-7005</a></h3></div>
                 <div class="btn-box">
                     <a href="{{ route('contact') ?? '#' }}" class="theme-btn btn-one">Start Consult</a>
                 </div>
