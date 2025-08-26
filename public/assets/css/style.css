@@ -15754,7 +15754,7 @@ div#mCSB_1_container{
 
 .contact-section{
   position: relative;
-  background: #f4f1fa;
+  background: #ffffff;
 }
 
 .contact-section .sec-title{
@@ -15850,7 +15850,7 @@ div#mCSB_1_container{
 .info-block-one .inner-box .single-item h6:before{
   position: absolute;
   content: '';
-  background: #f4f1fa;
+  background: #ffffff;
   width: 100%;
   height: 10px;
   left: 0px;
@@ -15941,7 +15941,7 @@ div#mCSB_1_container{
 .contact-style-two:before{
   position: absolute;
   content: '';
-  background: #f4f1fa;
+  background: #ffffff;
   width: 100%;
   height: 50%;
   left: 0px;
