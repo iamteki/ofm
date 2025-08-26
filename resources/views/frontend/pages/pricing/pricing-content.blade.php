@@ -451,7 +451,6 @@
         margin-bottom: 0px;
         text-align: center;
         padding-bottom: 30px;
-        border-bottom: 1px solid #eee;
     }
     
     .pricing-block-one.onetime-card .table-header p {
