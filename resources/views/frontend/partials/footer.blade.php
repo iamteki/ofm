@@ -78,7 +78,7 @@
     </div>
     <div class="footer-bottom">
         <div class="auto-container">
-            <div style="border-top: 1px solid #394450; margin-bottom: 20px;"></div>
+            <div style="border-top: 1px solid #d1d5db; margin-bottom: 20px;"></div>
             <div class="bottom-inner">
                 <div class="copyright-text">
                     <p style="margin: 0; color: #75727b; font-size: 14px; text-align: center; margin-bottom: 10px;">Copyright © {{ date('Y') }} <a href="https://creatxsoftware.com/" target="_blank" style="color: #4ec0fc; text-decoration: none;">CreatxSoftware</a>. All Rights Reserved.</p>
