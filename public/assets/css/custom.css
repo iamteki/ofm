@@ -545,3 +545,18 @@
 .tools-style-two.service-page .more-text h5 a{
   color: #fff;
 }
+
+/* Header navigation dropdown width fix */
+.main-menu .navigation > li.dropdown ul {
+  min-width: 350px !important;
+  width: 350px !important;
+}
+.main-menu .navigation > li.dropdown ul li a {
+  white-space: nowrap !important;
+  padding-right: 40px !important;
+}
+
+/* Mobile menu background color */
+.mobile-menu .menu-box {
+  background: #030B18 !important;
+}

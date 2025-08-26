@@ -65,12 +65,34 @@
                                 <li class="dropdown {{ Route::currentRouteName() == 'services' ? 'current' : '' }}">
                                     <a href="{{ route('services') ?? '#' }}">Services</a>
                                     <ul>
-                                        <li><a href="#">Financial Planning</a></li>
-                                        <li><a href="#">Investment Management</a></li>
-                                        <li><a href="#">Tax Planning</a></li>
-                                        <li><a href="#">Retirement Planning</a></li>
-                                        <li><a href="#">Risk Management</a></li>
-                                        <li><a href="#">Estate Planning</a></li>
+                
+                                        <li class="dropdown"><a href="#">Financial Planning & Analysis</a>
+                                            <ul>
+                                                <li><a href="#">Sub Item 1</a></li>
+                                                <li><a href="#">Sub Item 2</a></li>
+                                                <li><a href="#">Sub Item 3</a></li>
+                                                <li><a href="#">Sub Item 4</a></li>
+                                                <li><a href="#">Sub Item 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">Financial Control</a>
+                                            <ul>
+                                                <li><a href="#">Sub Item 1</a></li>
+                                                <li><a href="#">Sub Item 2</a></li>
+                                                <li><a href="#">Sub Item 3</a></li>
+                                                <li><a href="#">Sub Item 4</a></li>
+                                                <li><a href="#">Sub Item 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">Operational Finance</a>
+                                            <ul>
+                                                <li><a href="#">Sub Item 1</a></li>
+                                                <li><a href="#">Sub Item 2</a></li>
+                                                <li><a href="#">Sub Item 3</a></li>
+                                                <li><a href="#">Sub Item 4</a></li>
+                                                <li><a href="#">Sub Item 5</a></li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="{{ Route::currentRouteName() == 'projects' ? 'current' : '' }}">
