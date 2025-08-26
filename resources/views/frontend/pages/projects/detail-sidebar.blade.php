@@ -21,7 +21,7 @@
             </li>
         </ul>
         <div class="btn-box">
-            <a href="{{ route('contact') }}" class="theme-btn btn-one">Yes! I'm Interested</a>
+            <a href="{{ route('contact') }}" class="theme-btn btn-one project-sidebar-btn">Yes! I'm Interested</a>
         </div>
     </div>
 </div>

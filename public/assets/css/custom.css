@@ -340,3 +340,10 @@
     margin-bottom: 20px !important;
   }
 }
+
+/* Project sidebar button custom styling */
+.project-sidebar-btn {
+  background: white !important;
+  color: #030B18 !important;
+  border: 1px solid #030B18 !important;
+}
