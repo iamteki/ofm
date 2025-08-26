@@ -352,3 +352,196 @@
 .help-section .btn-box {
   margin-top: 30px !important;
 }
+
+/* Tools section styles (converted from clients) */
+.tools-section{
+  position: relative;
+  padding: 100px 0px 94px 0px;
+}
+.tools-section .tools-logo{
+  position: relative;
+  display: block;
+}
+.tools-section .tools-logo img{
+  position: relative;
+  max-width: 100%;
+  width: auto;
+  transition: all 500ms ease;
+}
+.tools-section .tools-logo img:hover{
+  transform: scaleX(1.03);
+}
+.tools-section .more-text{
+  position: relative;
+  display: block;
+  padding-top: 53px;
+}
+.tools-section .more-text h5{
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1350F4;
+  font-weight: 600;
+}
+.tools-section .more-text h5 a{
+  display: inline-block;
+  color: #fff;
+}
+.tools-section .more-text h5 a:hover{
+}
+.tools-section .more-text h5 a i{
+  position: relative;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+/** tools-style-two **/
+.tools-style-two{
+  position: relative;
+  padding: 140px 0px 130px 0px;
+  background-color: #f0f4f7;
+}
+.tools-style-two .tools-list{
+  position: relative;
+}
+.tools-style-two .tools-list li{
+  position: relative;
+  display: block;
+  float: left;
+  width: 20%;
+  text-align: center;
+  border-right: 1px solid #d8dee2;
+  padding: 51px 0px;
+  min-height: 131px;
+}
+.tools-style-two .tools-list li:last-child{
+  border-right: none;
+}
+.tools-style-two .tools-list li img{
+  position: relative;
+  display: block;
+  max-width: 100%;
+  width: auto;
+  margin: 0 auto;
+  transition: all 500ms ease;
+}
+.tools-style-two .tools-list li img:hover{
+  transform: scale(1.02);
+}
+.tools-style-two .tools-list:first-child li{
+  padding-bottom: 50px;
+  border-bottom: 1px solid #d8dee2;
+}
+.tools-style-two .tools-list:last-child li{
+  padding-top: 50px;
+}
+.tools-style-two .more-text{
+  position: relative;
+  display: block;
+  padding-top: 47px;
+}
+.tools-style-two .more-text h5{
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1350F4;
+  font-weight: 600;
+}
+.tools-style-two .more-text h5 a{
+  display: inline-block;
+  color: #1350F4;
+}
+.tools-style-two .more-text h5 a:hover{
+}
+.tools-style-two .more-text h5 a i{
+  position: relative;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+/** tools-style-three **/
+.tools-style-three{
+  position: relative;
+  background: #1350F4;
+  padding: 100px 0px 94px 0px;
+}
+.tools-style-three .tools-logo-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tools-style-three .outer-container{
+  position: relative;
+  padding: 0px 100px;
+}
+.tools-style-three .outer-container li{
+  position: relative;
+  display: block;
+}
+.tools-style-three .outer-container li:before{
+  position: absolute;
+  content: '';
+  background: #404a5b;
+  width: 1px;
+  height: 38px;
+  top: 12px;
+  right: -95px;
+}
+.tools-style-three .outer-container li:last-child:before{
+  display: none;
+}
+.tools-style-three .outer-container li img{
+  position: relative;
+  display: block;
+  max-width: 100%;
+  width: auto;
+  transition: all 500ms ease;
+}
+.tools-style-three .outer-container li img:hover{
+  transform: scale(1.02);
+}
+.tools-style-three .more-text{
+  position: relative;
+  display: block;
+  padding-top: 49px;
+}
+.tools-style-three .more-text h5{
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  font-weight: 600;
+}
+.tools-style-three .more-text h5 a{
+  display: inline-block;
+  color: #fff;
+}
+.tools-style-three .more-text h5 a:hover{
+}
+.tools-style-three .more-text h5 a i{
+  position: relative;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+/* Tools service page specific styles */
+.tools-style-two.service-page{
+  background: #1350F4;
+  box-shadow: 15px 10px 20px 0px rgba(78, 192, 252, 0.10);
+}
+.tools-style-two.service-page .sec-title .sub-title{
+  color: #fff;
+}
+.tools-style-two.service-page .tools-list li{
+  border-color: rgba(255, 255, 255, 0.15);
+}
+.tools-style-two.service-page .more-text h5{
+  color: #fff;
+}
+.tools-style-two.service-page .more-text h5 a{
+  color: #fff;
+}

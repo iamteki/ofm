@@ -21,14 +21,6 @@
     <!-- service-style-five end -->
 
     <!-- clients-style-two -->
-    @include('frontend.pages.services.clients')
+    @include('frontend.pages.services.tools')
     <!-- clients-style-two end -->
-
-    <!-- pricing-style-two -->
-    @include('frontend.pages.services.pricing')
-    <!-- pricing-style-two end -->
-
-    <!-- cta-section -->
-    @include('frontend.pages.services.cta')
-    <!-- cta-section end -->
 @endsection
