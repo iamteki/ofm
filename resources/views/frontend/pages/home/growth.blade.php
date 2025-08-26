@@ -80,9 +80,7 @@
                 </li>
             </ul>
             <div class="more-text centred">
-                <h5>2.6k Companies & Individuals Trusted Us. 
-                    <a href="#"><i class="flaticon-right-chevron"></i>View All Clients</a>
-                </h5>
+               <h5>500+ Companies & Individuals Trusted Us. <a href="#"><i class="flaticon-right-chevron"></i>View All Tools</a></h5>
             </div>
         </div>
     </div>

@@ -6,7 +6,7 @@
     <nav class="menu-box">
         <div class="nav-logo">
             <a href="{{ route('home') }}">
-                <img src="{{ asset('assets/images/ofm.svg') }}" alt="Online Finance Manager" title="Online Finance Manager" style="height: 60px; width: auto; max-width: 200px; object-fit: contain; display: block;">
+                <img src="{{ asset('assets/images/ofm_white.svg') }}" alt="Online Finance Manager" title="Online Finance Manager" style="height: 60px; width: auto; max-width: 200px; object-fit: contain; display: block;">
             </a>
         </div>
         <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
