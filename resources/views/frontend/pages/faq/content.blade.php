@@ -1,6 +1,5 @@
 {{-- resources/views/frontend/sections/faq/content.blade.php --}}
 <div class="faq-content">
-    <span class="big-text">faq's</span>
     
     <div class="sec-title centred">
         <h2>Frequently Asked Questions</h2>

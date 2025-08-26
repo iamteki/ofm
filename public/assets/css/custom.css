@@ -347,3 +347,8 @@
   color: #030B18 !important;
   border: 1px solid #030B18 !important;
 }
+
+/* FAQ section help section button spacing */
+.help-section .btn-box {
+  margin-top: 30px !important;
+}
