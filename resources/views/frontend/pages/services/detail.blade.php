@@ -36,7 +36,5 @@
     </section>
     <!-- service-details end -->
 
-    <!-- cta-section -->
-    @include('frontend.pages.services.cta')
-    <!-- cta-section end -->
+
 @endsection
